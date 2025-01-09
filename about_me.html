@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Artspace-about-me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7ca483b7bf.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/aboutme-css.css">
+    <link rel="short icon" href="images/favicon.ico" />
+</head>
+
+<body>
+    <div>
+        <!-- Bootstrap 導覽列 -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">回首頁</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about_me.html">關於我</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="photography.html">攝影作品</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">聯絡我</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--主選單主要內容-->
+        <div class="container mt-3">
+            <div class="row">
+                <!--左側圖片-->
+                <div class="col-12 col-md-4 text-center bg-blue p-3">
+                    <div data-aos="fade-down">
+                        <img class="my_photo" src="images/elf.PNG" alt="">
+                    </div>
+                </div>
+                <!--右側文字-->
+                <div class="col-12 col-md-8 text-center bg-blue p-3">
+                    <div class="right-content">
+                        <h3>哈囉！大家好，我是林佑安，可以叫我小柚
+                            <br>
+                            平時的興趣愛好是攝影和聽音樂，
+                            <br>
+                            下面跟大家分享一些我喜歡的作品和攝影師(〃∀〃)
+                        </h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="scroll-menu mt-5 pt-5">
+                <a href="#music" class="scroll-link">最愛ㄉ音樂</a>
+                <a href="#photographer" class="scroll-link">最愛ㄉ攝影師</a>
+                <a href="#animation" class="scroll-link">最愛ㄉ動畫</a>
+            </div>
+        </div>
+        <div>
+            <div class="content mt-4">
+                <section id="music" class="py-5">
+                    <div class="box">
+                        <h1>最愛ㄉ音樂</h1>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/0MspNotX4vs?si=J1yOTHNEHRmTuDoz"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="photographer" class="section py-5">
+                    <div class="box">
+                        <h1>最愛ㄉ攝影師</h1>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <!-- 卡片 1 -->
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img src="images/enco.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <nav class="contact">
+                                                <ul>
+                                                    <li class="px-3">
+                                                        <p>Renan Viana</p>
+                                                        <a target="_self"
+                                                            href="https://www.instagram.com/encolhiaspessoas/?igsh=MWh1aDJoZW5iZTMweA%3D%3D#">
+                                                            <i class="fa-brands fa-square-instagram"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 卡片 2 -->
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img src="images/tt.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <nav class="contact">
+                                                <ul>
+                                                    <li class="px-3">
+                                                        <p>田中達也</p>
+                                                        <a target="_self"
+                                                            href="https://www.instagram.com/tanaka_tatsuya/">
+                                                            <i class="fa-brands fa-square-instagram"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 卡片 3 -->
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img src="images/paper.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <nav class="contact">
+                                                <ul>
+                                                    <li class="px-3">
+                                                        <p>Paperboyo</p>
+                                                        <a target="_self"
+                                                            href="https://www.instagram.com/paperboyo/?igsh=MXFoNHVlb2IyNGtqNg%3D%3D">
+                                                            <i class="fa-brands fa-square-instagram"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section id="animation" class="py-5">
+                <div class="box">
+                    <h1>最愛ㄉ動畫</h1>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <!-- 卡片 1 -->
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="images/the-simpsons.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">《The Simpsons》</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 卡片 2 -->
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="images/the-powerpuff-girls.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">《The Powerpuff Girls》</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 卡片 3 -->
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="images/tom-and-jerry.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">《Tom and Jerry》</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    </section>
+    </div>
+    <div class="back_top">
+        <a href="#top" class="move"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <script>
+        // 平滑滾動效果
+        $("a.scroll-link").on("click", function (e) {
+            e.preventDefault(); // 阻止預設行為
+            var target = $(this).attr("href"); // 獲取目標區塊的 ID
+            if ($(target).length) { // 確保目標元素存在
+                $("html, body").animate({
+                    scrollTop: $(target).offset().top - $(".navbar").outerHeight() // 考慮固定導覽列高度
+                }, 800);
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(); // 初始化 AOS
+    </script>
+    </script>
+    </div>
+</body>
+
+</html>

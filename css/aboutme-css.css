@@ -1,0 +1,249 @@
+body{
+    background-image: url(../images/paper-plain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-blue{
+    background-color: rgba(229, 176, 241, 0.664);
+    border-radius: 5px;
+}
+
+.navbar-brand img{
+    width: 80px;
+    margin: none;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(192, 125, 255);
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(124, 64, 188);
+}
+.active{
+    background-color: rgb(124, 64, 188);
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: rgb(124, 64, 188);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.my_photo{
+    width: 80%;
+    padding: none;
+}
+.contact ul{
+    list-style: none;
+    padding-left: 0;
+}
+.contact ul li{
+    display: inline-block;
+    /*padding: 0px 25px;*/
+}
+.contact ul li a{
+    font-size: 2rem;
+    color: rgb(78, 141, 236);
+}
+.contact ul li a:hover{
+    color: rgb(172, 111, 252);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container mt-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+}
+.right-content {
+    flex: 1;
+    margin-top: 70px;
+    color: rgb(124, 64, 188);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-content h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#music,#photographer,#animation{
+    background-color:  rgba(229, 176, 241, 0.664);
+}
+
+.scroll-menu {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    justify-content: center;
+    background-color: rgba(229, 176, 241, 0.664);
+}
+
+.scroll-menu a {
+    margin: 0 20px;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: rgb(124, 64, 188);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    width: auto;
+
+}
+
+.scroll-menu a:hover {
+    background-color:rgb(124, 64, 188);
+    color: rgb(255, 255, 255);
+}
+.mt-3, .my-3 {
+    margin-top: 125px !important;
+    margin-bottom: 100px;
+}
+.pt-5, .py-5 {
+    padding: 1.5rem !important;
+}
+
+
+.content section {
+    padding: 60px 0;
+}
+
+h1 {
+    color: rgb(124, 64, 188);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.box {
+    background-color: rgb(255, 255, 255); /* 白色底的框 */
+    margin: 20px auto;
+    margin-top: 80px;
+    padding: 25px;
+    border-radius: 10px;
+    width: 70%; /* 保持適當的盒子寬度 */
+    max-width: 1200px; /* 保證最大寬度 */
+}
+
+.pic {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.line > span {
+    color: rgb(124, 64, 188);
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.line {
+    width: 30%; /* 子盒子的寬度 */
+}
+
+.line img, .cube img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cube {
+    width: 40%; /* 子盒子的寬度 */
+}
+
+.cube > span {
+    color: rgb(124, 64, 188);
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#carouselExampleIndicators {
+    width: 50%;  /* 減少整體寬度 */
+
+}
+
+.back_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.644);
+    border-radius: 15px;
+    
+}
+.back_top a{
+    font-size: 2rem;
+    color: rgb(124, 64, 188);
+}
+.card-text{
+    text-align: center;
+}
+
+.card {
+    margin: 5px; /* 縮小卡片之間的間距 */
+    text-align: center;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px; /* 限制最大寬度 */
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: rgb(124, 64, 188); /* 調整文字顏色 */
+}
+.col-md-4{
+    padding: 0 !important;
+
+}
+.contact{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contact ul{
+    list-style: none;
+    padding-left: 0;
+}
+.contact ul li{
+    display: inline-block;
+    /*padding: 0px 25px;*/
+}
+.contact ul li a{
+    font-size: 2rem;
+    color: rgb(78, 141, 236);
+}
+.contact ul li a:hover{
+    color: rgb(172, 111, 252);
+}
+.px-3{
+    color: rgb(124, 64, 188);
+}

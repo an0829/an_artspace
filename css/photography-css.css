@@ -1,0 +1,206 @@
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-blue{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.navbar {
+    margin-bottom: 60px; /* 確保主內容不被導覽列遮擋 */
+}
+.navbar-brand img{
+    width: 80px;
+    margin: none;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(192, 125, 255);
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(124, 64, 188);
+}
+.active{
+    background-color: rgb(124, 64, 188);
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: rgb(124, 64, 188);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.my_photo{
+    width: 65%;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 0;
+}
+.my_photo-hor{
+    width: 95%;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column; /* 確保內容豎直排列 */
+    align-items: center;
+    justify-content: center;
+    width: 80%; /* 保留原本的寬度設定 */
+    max-width: 800px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.589); /* 半透明背景 */
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.h1, h1 {
+    font-size: 3rem;
+    color: rgba(124, 64, 188, 0.675);
+}
+.bg1{
+    background-image: url(../images/sea.jpg);
+}
+.bg2{
+    background-image: url(../images/red.jpg);
+}
+.bg3{
+    background-image: url(../images/IMG_5148.JPG);
+}
+
+.color1,.color2,.color3{
+    background-color: rgb(200, 182, 255);
+}
+
+html,body{
+    height: 100%;
+}
+.fixed_bg, .infos {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fixed_bg {
+    min-height: 100vh; /* 保留固定全屏高度 */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.infos {
+    height: auto; /* 高度根據內容自適應 */
+    margin: 0;
+    padding: 60px 0; /* 保留一些空隙 */
+    box-sizing: border-box; /* 避免內外框影響佈局 */
+}
+
+
+
+.container, .row {
+    margin: 0 auto;
+    padding: 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+/* 針對圖片在左的默認樣式 */
+.row:not(.image-right) .col-md-4 {
+    order: 0; /* 圖片在左 */
+}
+.row:not(.image-right) .col-md-8 {
+    order: 1; /* 文字在右 */
+}
+
+/* 針對圖片在右的特殊樣式 */
+.row.image-right .col-md-4 {
+    order: 1; /* 圖片在右 */
+}
+.row.image-right .col-md-8 {
+    order: 0; /* 文字在左 */
+}
+
+.left-image{
+    text-align: right;
+}
+.left-image > img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.h3, h3 {
+    font-size: 1.5rem;
+    color: rgb(124, 64, 188);
+    text-align: center;
+    line-height: 1.8;
+    font-weight: 650;
+}
+p{
+    margin-top: 15px;
+    line-height: 1.8;
+}
+.back_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.644);
+    border-radius: 15px;
+    
+}
+.back_top a{
+    font-size: 2rem;
+    color: rgb(124, 64, 188);
+}
+.infos.color3 {
+    display: flex;                /* 使用 Flexbox 進行對齊 */
+    justify-content: center;      /* 水平置中 */
+    height: 100vh;                /* 確保父層高度覆蓋全屏 */
+    margin: 0;                    /* 清除外邊距干擾 */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#carouselExampleControls {
+    position: relative;
+    width: 32%;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+}
+.carousel-item{
+    border-radius: 10px;
+}
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
